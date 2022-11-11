@@ -61,6 +61,6 @@ main()
     printf(" vetor %d = [%d]\n",x,vetor[x]); // exibe o vetor ordenado
   }
  
-  
+  System("pause");
 }
-System("pause");
+
