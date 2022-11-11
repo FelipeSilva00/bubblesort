@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <conio.h>
 #define i 7
 
 main()
@@ -62,5 +63,6 @@ main()
   }
  
   System("pause");
+  getch();
 }
 
