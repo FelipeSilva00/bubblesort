@@ -19,9 +19,9 @@ main()
   // coloca em ordem crescente (1,2,3,4,5...)  
   for( x = 0; x < i; x++ )
   {
-    for( y = x + 1; y < i; y++ ) // sempre 1 elemento à frente
+    for( y = x + 1; y < i; y++ ) // sempre 1 elemento Ã  frente
     {
-      // se o (x > (x+1)) então o x passa pra frente (ordem crescente)
+      // se o (x > (x+1)) entÃ£o o x passa pra frente (ordem crescente)
       if ( vetor[x] > vetor[y] )
       {
          aux = vetor[x];
@@ -29,7 +29,7 @@ main()
          vetor[y] = aux;
       }
     }
-  } // fim da ordenação
+  } // fim da ordenaÃ§Ã£o
   
   // exibe elementos ordenados   
   printf("\n Elementos ordenados (Ordem Crescente):\n");
@@ -42,7 +42,7 @@ main()
   // coloca em ordem decrescente (10,9,8,7...)
   for( x = 0; x < i; x++ )
   {
-    for( y = x + 1; y < i; y++ ) // sempre 1 elemento à frente
+    for( y = x + 1; y < i; y++ ) // sempre 1 elemento Ã  frente
     {
       if ( vetor[y] > vetor[x] )
       {
@@ -51,7 +51,7 @@ main()
          vetor[x] = aux;
       }
     }
-  } // fim da ordenação
+  } // fim da ordenaÃ§Ã£o
   
   // exibe elementos ordenados
   printf("\n \n \n Elementos ordenados (Ordem Decrescente):\n");
@@ -63,3 +63,4 @@ main()
  
   
 }
+System("pause");
