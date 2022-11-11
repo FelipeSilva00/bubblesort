@@ -12,7 +12,7 @@ main()
   
   for( x = 0; x < i; x++ ) 
   {
-    printf("Entre com um numero inteiro para vetor: ",x);
+    printf("Digite um numero inteiro: ",x);
     scanf("%d",&aux);
     vetor[x] = aux;
   }
@@ -60,9 +60,9 @@ main()
   for( x = 0; x < i; x++ )
   {
     printf(" vetor %d = [%d]\n",x,vetor[x]); // exibe o vetor ordenado
+    System("pause");
+  getch();
   }
  
-  System("pause");
-  getch();
 }
 
