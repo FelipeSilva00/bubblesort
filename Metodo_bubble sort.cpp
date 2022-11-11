@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #define i 7
 
 main()
@@ -60,9 +59,7 @@ main()
   for( x = 0; x < i; x++ )
   {
     printf(" vetor %d = [%d]\n",x,vetor[x]); // exibe o vetor ordenado
-    System("pause");
-  getch();
   }
- 
+ system("pause");
 }
 
